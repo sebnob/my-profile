@@ -1,0 +1,81 @@
+body{
+	background-color: #D2D5DD;
+	color: #386FA4;
+	font-family: font-family: 'Martel', serif;
+	font-size: 30px; 
+	font-weight:40 ;
+	line-height: 2;
+	letter-spacing:4px}
+
+h1,h2,h3{font-family: 'Oswald', sans-serif; text-align: center;}
+
+h1{
+	text-align:center ;
+	color: #732C2C;
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> }
+
+h2{color: #03045E;}
+
+img{ border-radius: 50%; }
+a {color: #C44536;
+	font-weight: bold;
+	transition: color 0.3s ease;}
+a:hover {color: #386FA4;}
+
+
+
+#container {width: 900px; margin: 0 auto;}
+@media(max-width:  500px) {
+	#container{ width: 400px; }
+}
+
+@media(max-width:  700px) {
+	#container{ width: 600px; }
+}
+
+#intro {background: whitesmoke;
+	padding: 50px;
+	margin: 40px auto;
+	border-block-color: aqua;
+	box-shadow: 0px 10px 20px black;
+	border-radius: 5px;}
+
+#intro p {margin-bottom: 50px;}
+
+.center{
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	}
+
+
+
+.btn-blue{background-color: #D2D5DD;
+	color: #C44536; padding: 15px 20px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;}
+
+.btn-blue:hover{background-color: rgba(0, 0, 0, 0.2); color:#C44536 ; }
+
+
+.list-inline{list-style: none;
+padding-left: 0px;
+align-content: center;}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;}
+
+.list-inline i{
+	font-size:50px;
+	margin: a;}
+
+
+
+
+#card-white {background-color: rgba(0, 0, 0, 0.2);
+margin-top: 200px;
+border-radius: 375px;}
